@@ -1,0 +1,137 @@
+/*-- Use For Custom Styling --*/
+
+header a.logo img {
+    max-width: 200px;
+  }
+  .slider-area input{margin: 0;
+    height: 54px;}
+
+    .slider-area input::placeholder{color: #ccc !important;}
+
+.price-table thead{background-color: #ed0f53; color: #fff; }
+      
+.price-table thead th{font-weight: 600; font-size: 20px;}  
+
+.price-table {padding: 15px;    border: solid 1px #ccc;   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.13);}
+.author-skills img{padding:0 5px;}
+      .manufacture .about-heading .heading{font-size: 25px;}
+      .manufacture img{border: solid 1px #ccc;
+        margin-bottom: 15px;
+        padding: 10px;}
+      .sce-wrap{border-right: solid 4px #ed0f53;
+       
+        box-shadow: 0 0 5px #cccccc9e;
+        padding: 12px; transition: all .5s;}
+        .sce-wrap:hover{box-shadow: 0 0 10px 1px #ccc;}
+      
+        .cust-col{align-content: space-between;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;}
+      .investment{padding: 30px;
+        text-align: center;
+        border-radius: 25px;
+        background-color: #d6dce5;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center; height: 100%;}
+      
+      .investment h4{font-size: 16px; margin-bottom: 0; margin-top: 25px;font-weight: bold;
+        line-height: 1.7;}
+      .inv-badge{background-image: url(../img/icons/badge.png); background-repeat: no-repeat;
+        width: 73px;
+        height: 63px;
+        position: absolute;
+        top: -26px;display: flex;
+        align-items: center;
+        justify-content: center;left: 30px;}
+        .inv-badge p{margin: 0; padding-right: 10px;
+            color: #000;
+            font-size: 20px;
+            font-weight: 600;}
+            .investment h4 span{color: #ed0f53;}
+.investment::after{content: '';
+    width: 100px;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    bottom: -5px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;}
+
+    .investment-highlight .col-md-4{margin-bottom: 60px;}
+    .list-icon li{display: flex;align-items: baseline;margin-bottom: 10px;}
+    .list-icon li i{margin-right: 5px;}
+    .unique-lava h2{font-size: 18px;
+        font-weight: bold; margin: 15px 0;}
+.unique-lava{border: solid 1px #ccc;
+            padding: 15px;
+            box-shadow: 0 0 5px 1px #2d0d0d42;
+            background: #fff;height: 100%;
+            border-radius: 5px; border-top: solid 3px #ccc;transition: border-color 0.6s linear; }
+            .unique-lava:hover{ border-top: solid 3px #ed0f53;box-shadow: 0 0 5px 1px #ccc}
+            .unique-lava img{width: 100%;
+                max-width: 50px;}
+.team-lava{text-align: center;}
+.team-img{text-align: center;}
+.team-img img{width: 100%; max-width: 105px;}
+.team-lava h2{ font-size: 18px;
+    color: #ed0f53;
+    font-weight: bold;
+    margin: 15px 0 10px;
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 10px;}
+.team-lava h4{ font-size: 17px; color: #1f1e1e;}
+.team-desc{text-align: left; margin-top: 15px;}
+.news-item .news-title{overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;}
+    .news-item .news-text-box {
+        padding: 15px;}
+        .news-item{border: solid 1px rgba(204, 204, 204, 0.64);}
+p.para{overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6; /* number of lines to show */
+            line-clamp: 6; 
+    -webkit-box-orient: vertical;}
+    .news-item img {
+        width: 100%;
+        height: 210px;
+        object-fit: cover;
+      }
+
+      .footer_area {
+        background-color: #38424D; color: #fff;
+    }
+    .list-unstyled {
+        padding-left: 0;
+        list-style: none;
+        display: flex;
+      }
+      .footer img{max-width: 150px; margin-bottom: 15px;}
+      .footer_area h4{margin-bottom: 30px;}
+      .footer_area h5{ font-size: 16px;}
+      .footer_area .list-icon.social li{ margin-right: 15px; font-size: 25px;}
+
+.form-select{width: 100%; margin-top: 35px;}
+.header-appear .navbar-top-default, .navbar-top-default{background: #38424D;}
+.header-appear .navbar-simple .navbar-nav .nav-link, .navbar-simple .navbar-nav .nav-link {
+    color: #fff;
+  }
+
+
+@media (min-width: 1400px) {
+    .container {
+      max-width: 1380px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .sce-wrap{margin-bottom: 15px;}
+    .news-item { margin-bottom: 15px;
+      }
+  }
