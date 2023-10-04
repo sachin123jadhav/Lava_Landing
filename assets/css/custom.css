@@ -8,7 +8,7 @@ header a.logo img {
 
     .slider-area input::placeholder{color: #ccc !important;}
 
-.price-table thead{background-color: #ed0f53; color: #fff; }
+.price-table thead{background-color: #38424d; color: #fff; }
       
 .price-table thead th{font-weight: 600; font-size: 20px;}  
 
@@ -30,38 +30,28 @@ header a.logo img {
             justify-content: space-between;}
       .investment{padding: 30px;
         text-align: center;
-        border-radius: 25px;
-        background-color: #d6dce5;
+       
+        background: #fff;
         position: relative;
         display: flex;
         flex-direction: column;
-        align-items: center; height: 100%;}
+        align-items: center; height: 100%;aspect-ratio: 1/1;
+        justify-content: center;}
+
+        .investment.bg-blue {
+          background: #1a3350;
+        }
       
       .investment h4{font-size: 16px; margin-bottom: 0; margin-top: 25px;font-weight: bold;
         line-height: 1.7;}
-      .inv-badge{background-image: url(../img/icons/badge.png); background-repeat: no-repeat;
-        width: 73px;
-        height: 63px;
-        position: absolute;
-        top: -26px;display: flex;
-        align-items: center;
-        justify-content: center;left: 30px;}
-        .inv-badge p{margin: 0; padding-right: 10px;
-            color: #000;
-            font-size: 20px;
-            font-weight: 600;}
-            .investment h4 span{color: #ed0f53;}
-.investment::after{content: '';
-    width: 100px;
-    height: 5px;
-    background-color: #000;
-    position: absolute;
-    bottom: -5px;
-    display: inline-block;
-    text-align: center;
-    margin: 0 auto;}
 
-    .investment-highlight .col-md-4{margin-bottom: 60px;}
+        .investment.bg-blue h4{color: #fff;}
+    
+        
+            .investment h4 span{color: #ed0f53;}
+
+
+    .investment-highlight .col-md-4{margin-bottom: 0px;}
     .list-icon li{display: flex;align-items: baseline;margin-bottom: 10px;}
     .list-icon li i{margin-right: 5px;}
     .unique-lava h2{font-size: 18px;
@@ -147,3 +137,297 @@ p.para{overflow: hidden;
         background: #fff;
       }
   }
+
+
+
+
+  
+/* ===================================
+        Real State Form
+====================================== */
+
+.real-state-form .select2-container--default .select2-selection--single {
+  background-color: transparent;
+  border:none;
+  border-bottom: 1px solid #FFFFFF;
+   border-radius: 0;
+  width: 189px;
+}
+
+.real-state-form .select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #FFFFFF;
+}
+
+.real-state-form .select2-container .select2-selection--single .select2-selection__rendered {
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: flex;
+  font-weight: 300;
+  font-size: 16px;
+}
+.real-state-form .select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-color: #fff transparent transparent
+}
+
+
+.real-state-form{
+  padding: 50px 30px 50px 30px;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  position: absolute;
+  z-index: 1;
+
+
+  max-width: 600px;
+}
+
+.book-property .booking-heading{
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.real-state-form  .contact-form .form-control{
+  color: #FFFFFF;
+}
+
+.real-state-form .contact-form input {
+  background-color: transparent;
+  border-bottom: 1px white solid;
+}
+
+.real-state-form .contact-form select{
+  background-color: transparent;
+  border-bottom: 1px white solid;
+  color: #FFFFFF;
+}
+
+.real-state-form .contact-form select option{
+  color: #000000;
+}
+/*placeholder for input*/
+
+.real-state-form .contact-form input::placeholder , .real-state-form .contact-form .form-group select::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FFFFFF;
+  font-size: 16px;
+  opacity: 1; /* Firefox */
+}
+/* Internet Explorer 10-11 */
+.real-state-form .contact-form input:-ms-input-placeholder , .real-state-form .contact-form .form-group select:-ms-input-placeholder{
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+/* Microsoft Edge */
+.real-state-form .contact-form input::-ms-input-placeholder , .real-state-form .contact-form .form-group select::-ms-input-placeholder {
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.slider-form-area .contact-form {
+  max-width: 750px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.slider-form-area .contact-form .form-control {
+  border: none;
+  border-bottom:1px solid #e2e2e2;
+  padding: 12px 0;
+  color: #FFFFFF;
+  letter-spacing: .7px;
+  font-weight: 300;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 44px;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: border .9s ease;
+  -o-transition: border .9s ease;
+  transition: border .9s ease;
+}
+
+.slider-form-area .contact-form textarea {
+  min-height: 175px;
+  resize: none;
+}
+
+.slider-form-area .contact-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+
+/*lastest_arrivals*/
+.owl-nav{transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  width: 100%;display: flex;
+  justify-content: space-between;left: -12px;}
+  button.owl-prev span, button.owl-next span{font-size: 60px;}
+ 
+
+.lastest_arrivals{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.lastest_arrivals h1{
+  font-size: 26px;
+  color:#000000;
+  font-weight: bold;
+}
+
+.lastest_arrival_items .lastest-addto-cart{
+  position: absolute;
+  z-index: 100;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad)) ;
+  background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%) ;
+  background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  -webkit-transition: .8s ease;
+  -o-transition: .8s ease;
+  transition: .8s ease;
+}
+
+.lastest_arrival_items .lastest-addto-cart i{
+  position: absolute;
+  color: #FFFFFF;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.lastest_arrivals .lastest_arrival_items.item:hover  .lastest-addto-cart{
+  opacity: 1;
+}
+
+.lastest_arrivals .lastest_arrival_items .card{
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.lastest_arrivals .lastest_arrival_items .card img{
+  width: 100%;
+  height: 100%;
+}
+
+.lastest_arrivals .lastest_arrival_items .card .product-type{
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad)) ;
+  background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%) ;
+  background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;
+  top: 10px;
+  left: 5px;
+  border-radius: 50px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.lastest_arrivals .lastest_arrival_items .card .image-holder{
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.lastest_arrivals .lastest_arrival_items .card .image-holder img{
+  -webkit-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.lastest_arrivals .lastest_arrival_items .card:hover .image-holder img{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.lastest_arrivals .lastest_arrival_items .card .card-body{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.lastest_arrivals .lastest_arrival_items .card .card-body h5{
+  color: black;
+  font-size: 15px;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  -webkit-transition: .8s ease;
+  -o-transition: .8s ease;
+  transition: .8s ease;
+  margin-bottom: 5px;
+}
+.lastest_arrivals .lastest_arrival_items .card .card-body p{
+  color:#f11fad;
+  font-size: 14px;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  -webkit-transition: .8s ease;
+  -o-transition: .8s ease;
+  transition: .8s ease;
+}
+
+.lastest_arrivals .lastest_arrival_items .card:hover .card-body h5 {
+  color: #f11fad !important;
+}
+
+.lastest_arrivals .lastest_arrival_items .card:hover .card-body p{
+  color:#000000;
+}
+
+.lastest_arrivals .owl-dots{
+  position: absolute;
+  right: 0px;
+  top: -40px;
+}
+
+.lastest_arrivals  .lastest_featured_products  .owl-nav button.owl-next, .lastest_arrivals  .lastest_featured_products  .owl-nav button.owl-prev, .lastest_arrivals  .lastest_featured_products  button.owl-dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50px;
+
+  margin-left: 8px;
+}
+
+.lastest_arrivals .lastest_featured_products .owl-dots .owl-dot.active{
+  background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad)) ;
+  background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%) ;
+  background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;
+}
