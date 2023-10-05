@@ -42,7 +42,7 @@ header a.logo img {
           background: #1a3350;
         }
       
-      .investment h4{font-size: 16px; margin-bottom: 0; margin-top: 25px;font-weight: bold;
+      .investment h4{font-size: 20px; margin-bottom: 0; margin-top: 25px;font-weight: bold;
         line-height: 1.7;}
 
         .investment.bg-blue h4{color: #fff;}
@@ -113,6 +113,13 @@ p.para{overflow: hidden;
     color: #fff;
   }
 .navigation-toggle{display: none;}
+#particles-js{max-height: 750px;}
+.slider-area {
+  padding-top: 40px;}
+  section {
+    padding: 1.5rem 0;
+  }
+
 
 @media (min-width: 1441px) {
     .container {
@@ -174,7 +181,7 @@ p.para{overflow: hidden;
 
 
 .real-state-form{
-  padding: 50px 30px 50px 30px;
+  padding: 25px;
   background-color: rgba(255, 255, 255, 0.07);
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.08);
