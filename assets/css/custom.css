@@ -113,37 +113,17 @@ p.para{overflow: hidden;
     color: #fff;
   }
 .navigation-toggle{display: none;}
-#particles-js{max-height: 750px;}
+#particles-js{max-height: 600px;align-items: center;}
 .slider-area {
-  padding-top: 40px;}
+  padding-top: 0;
+ 
+}
+
   section {
     padding: 1.5rem 0;
   }
 
 
-@media (min-width: 1441px) {
-    .container {
-      max-width: 1380px;
-    }
-  }
-
-  @media (max-width: 600px) {
-    .sce-wrap{margin-bottom: 15px;}
-    .news-item { margin-bottom: 15px;
-      }
-      .navigation-toggle{display: block;}
-      .footer_area h4 {
-        text-align: left;
-        margin-top: 30px;
-        margin-bottom: 10px;
-      }
-      .footer {
-        padding: 1rem 0;
-      }
-      .header-appear .sidemenu_btn span {
-        background: #fff;
-      }
-  }
 
 
 
@@ -185,11 +165,11 @@ p.para{overflow: hidden;
   background-color: rgba(255, 255, 255, 0.07);
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  position: absolute;
+  position: relative;
   z-index: 1;
 
 
-  max-width: 600px;
+  max-width:450px;
 }
 
 .book-property .booking-heading{
@@ -270,7 +250,10 @@ p.para{overflow: hidden;
 .slider-form-area .contact-form .form-group {
   margin-bottom: 1.5rem;
 }
-
+.slider-image img {
+  position: relative;
+  max-width: 335px;
+}
 
 
 
@@ -437,4 +420,57 @@ p.para{overflow: hidden;
   background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad)) ;
   background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%) ;
   background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1441px) {
+  .container {
+    max-width: 1380px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sce-wrap{margin-bottom: 15px;}
+  .news-item { margin-bottom: 15px;
+    }
+    .navigation-toggle{display: block;}
+    .footer_area h4 {
+      text-align: left;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    .footer {
+      padding: 1rem 0;
+    }
+    .header-appear .sidemenu_btn span {
+      background: #fff;
+    }
+    .slider-image img {
+      position: relative;
+      max-width: 250px;
+    }
+
+    .slider-image{text-align: center;}
+    .slider-area .content-margin {
+      padding-top: 25px;
+      margin-bottom: 0;
+    }
+    #particles-js {
+      max-height: 100%;
+    }
+    #particles-js .area-heading{padding-bottom: 25px;}
+    .area-heading h1 {
+      font-size: 25px;
+    }
 }
