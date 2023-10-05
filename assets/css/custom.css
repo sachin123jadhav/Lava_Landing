@@ -424,7 +424,9 @@ p.para{overflow: hidden;
 
 .bg-pink{background: linear-gradient(to left, #ed0f53, #750225);}
 
-
+.footer {
+  padding: 2rem 0;
+}
 
 
 
